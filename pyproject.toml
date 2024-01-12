@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pokemonster_client_and_api"
+version = "0.1.0"
+description = ""
+authors = ["jamesclair <clair.james88@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pokemonster_client_and_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.3"
+aiopokeapi = "^0.1.5.1"
+requests = "^2.31.0"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
